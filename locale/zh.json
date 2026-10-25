@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Office 文档透视",
+    "description": "纯 JS 离线解析 PDF、Excel 与 Word；两阶段渐进式 Token 安全读取、自动转 Markdown 表格与右侧栏速览。"
+  }
+}

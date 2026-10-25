@@ -1,6 +1,6 @@
 {
   "name": "@civilization/dsh-office-reader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Smart PDF, Excel, and Word document parser and token-safe analyzer for DeepSeek Harness.",
   "type": "module",
   "main": "lib/index.js",
@@ -8,14 +8,18 @@
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
     "./src/*": "./src/*",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
   },
   "files": [
     "lib",
     "src",
     "skills",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "locale/*.json",
+    "icon.svg"
   ],
   "engines": {
     "node": ">=20"
@@ -73,4 +77,3 @@
     "registry": "https://registry.npmjs.org/"
   }
 }
-
