@@ -26,7 +26,7 @@ export const Config: Schema<Config> = Schema.object({
   enableFormatPreview: Schema.boolean()
     .default(true)
     .description('是否启用右侧栏文档结构与内容快速透视面板'),
-}).description('Office 与 PDF 文档安全解析与阅读器')
+}).description('Office 与 PDF 文档安全解析与阅读器') as Schema<Config>
 
 async function readSkillContent(): Promise<string> {
   try {
